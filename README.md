@@ -1,4 +1,7 @@
 # CloudBrews-SpringBoot
+**Setup**
+Start by making a directory and changing into it
+
 ```
 mkdir springboot
 cd springboot
