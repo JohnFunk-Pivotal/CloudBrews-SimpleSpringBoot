@@ -16,6 +16,8 @@ unzip demo.zip
 **look around at the code**
 
 **add an examplecontrollerclass**
+using vim, emax or nano add type in the code in ExampleController.java class
+or you can avoid typing the code by using the following command
 ```
 curl https://raw.githubusercontent.com/JohnFunk-Pivotal/CloudBrews-SpringBoot/master/ExampleController.java -o src/main/java/com/example/ExampleController.java
 ```
