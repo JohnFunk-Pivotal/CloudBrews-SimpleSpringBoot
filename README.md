@@ -48,9 +48,9 @@ cf push bootapp -p target/demo-0.0.1-SNAPSHOT.jar --random-route
 If you are asked for a password please ask one of the helpers at the station to proide it.
 
 ## Login to Cloud Foundry
-open cloud foundry in a browser by visiting:  http://run.pivotal.io
-   username: demo1@johnfunk.com
-   password:  ask one of the helpers
+Open cloud foundry in a browser by visiting:  http://run.pivotal.io  
+   *username: demo1@johnfunk.com  
+   *password:  ask one of the helpers  
 
 ##Navigate to the Application in Pivotal Cloud Foundry
 First click on the 'Denver-CloudBrews' space as shown below:
