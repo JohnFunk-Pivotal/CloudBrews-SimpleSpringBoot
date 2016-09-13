@@ -6,7 +6,7 @@ This exercise will introduce you to the productivity gains of using Spring Boot 
 Spring Boot Initializr is a fast way to generate a skelton applicaiton and all the necessary dependancies for a spring boot appliciaton.   Visit https://start.spring.io/ and switch into the full version to see the types of applicaitons it can create.
 
 ## Setup
-Start by making a directory and changing into it
+Start by making a directory in your Google Compute Engine Console and changing into it
 ```
 mkdir springboot
 cd springboot
