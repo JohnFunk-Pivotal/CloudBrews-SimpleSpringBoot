@@ -61,7 +61,7 @@ First click on the 'Denver-CloudBrews' space as shown below:
 Next click on the link under the ROUTE lable as shown below:
 ![CloudFoundryApps](https://github.com/JohnFunk-Pivotal/CloudBrews-SpringBoot/blob/master/CloudFoundryApps.png "Apps view on PCF") 
 
-## Congradulations
+## Congratulations
 Congratulations you just built a spring boot application on Google Compute Engine and pushed it to Pivotal Cloud Foundry.  Talk to the helper at the station to see what's next!
 
 
