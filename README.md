@@ -40,7 +40,7 @@ java -jar target/demo*.jar
 To open a browser from the Google Compute Engine environment click in the control in the upper left of the console window as shown in the following diagrams:
 
 ![CloudFoundrySpace](https://github.com/JohnFunk-Pivotal/CloudBrews-SpringBoot/blob/master/OpenBrowser1.png "Open a browser")  
-![CloudFoundrySpace](https://github.com/JohnFunk-Pivotal/CloudBrews-SpringBoot/blob/master/OpenBrowser2.png "Open a browser") 
+![CloudFoundrySpace](https://github.com/JohnFunk-Pivotal/CloudBrews-SpringBoot/blob/master/OpenBrowser2.png "Open a browser")
 
 ## Stop the project
 Once you see the "hello world" output from the app, stop the project hit CTRL-C in the Google Compute Engine console window.
@@ -70,4 +70,4 @@ Next locate the applicaiton called "bootapp" and click on the link under the ROU
 Congratulations you just built a Spring Boot application on Google Compute Engine and pushed it to Pivotal Cloud Foundry.  Talk to the helper at the station to see what's next!
 
 ## Feedback
-Please give us feedback on this exercise: [Feedback](http://pivotal.DSUW.sgizmo.com/s3/?station=1)
+Please help us improve in the future by giving us feedback on this exercise: [Feedback](http://pivotal.DSUW.sgizmo.com/s3/?station=1)
