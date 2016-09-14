@@ -1,6 +1,6 @@
 # Station 1 - SpringBoot
 ##Introduction
-This exercise will introduce you to the productivity gains of using Spring Boot for your Java project.   First we'll use Spring Boot Initializr to create a template Spring Boot application.  Then we will add a few lines of code to make it a rest end point and then we'll push this application to Pivotal Cloud Foundry.
+This exercise will introduce you to the productivity gains of using Spring Boot for your Java project.   First we'll use Spring Boot Initializr to create a template Spring Boot application.  Then we will add a few lines of code to make it a REST endpoint and then we'll push this application to Pivotal Cloud Foundry.
 
 ### What is Spring Boot Initializr?
 Spring Boot Initializr is a fast way to generate a skeleton application and all the necessary dependencies for a Spring Boot application.   Visit https://start.spring.io/ and switch into the full version to see the types of applications it can create.
@@ -63,3 +63,6 @@ Next click on the link under the ROUTE label as shown below:
 
 ## Congratulations
 Congratulations you just built a Spring Boot application on Google Compute Engine and pushed it to Pivotal Cloud Foundry.  Talk to the helper at the station to see what's next!
+
+## Feedback
+Please give us feedback on this exercise: [Feedback](http://pivotal.DSUW.sgizmo.com/s3/?station=1)
