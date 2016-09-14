@@ -9,7 +9,7 @@ Spring Boot Initializr is a fast way to generate a skeleton application and all 
 Start by cleaning up after the last person and making a directory in your Google Compute Engine Console and changing into it.
 ```
 cd ~
-rm -rf springdatarest
+rm -rf springboot
 mkdir springboot
 cd springboot
 ```
