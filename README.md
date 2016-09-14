@@ -36,10 +36,11 @@ curl https://raw.githubusercontent.com/JohnFunk-Pivotal/CloudBrews-SpringBoot/ma
 mvn clean install
 java -jar target/demo*.jar
 ```
-
+Add screenshot
 ## Open the application in a browser window
 http://localhost:8080
 
+add ctrl-c
 
 ##Push the application to Pivotal Cloud Foundry
 Finally we'll push this application to Pivotal Cloud Foundry, but first we have to login.
@@ -58,7 +59,7 @@ Open Cloud Foundry in a browser by visiting:  http://run.pivotal.io
 First click on the 'Denver-CloudBrews' space as shown below:
 ![CloudFoundrySpace](https://github.com/JohnFunk-Pivotal/CloudBrews-SpringBoot/blob/master/CloudFoundrySpace.png "Space view on PCF")  
 
-Next click on the link under the ROUTE label as shown below:
+Next locate the applicaiton called "bootapp" and click on the link under the ROUTE label as shown below:
 ![CloudFoundryApps](https://github.com/JohnFunk-Pivotal/CloudBrews-SpringBoot/blob/master/CloudFoundryApps.png "Apps view on PCF")
 
 ## Congratulations
