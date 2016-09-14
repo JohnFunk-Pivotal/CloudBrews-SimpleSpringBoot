@@ -1,9 +1,9 @@
 # Station 1 - SpringBoot
 ##Introduction
-This exercise will introduce you to the productivity gains of using Spring Boot for your Java project.   First we'll use Spring Boot Initializr to create a template Spring Boot application.  Then we will add a few lines of code to make it a rest end point and then we'll push this applicaiton to Pivotal Cloud Foundry.
+This exercise will introduce you to the productivity gains of using Spring Boot for your Java project.   First we'll use Spring Boot Initializr to create a template Spring Boot application.  Then we will add a few lines of code to make it a rest end point and then we'll push this application to Pivotal Cloud Foundry.
 
 ### What is Spring Boot Initializr?
-Spring Boot Initializr is a fast way to generate a skelton applicaiton and all the necessary dependancies for a spring boot appliciaton.   Visit https://start.spring.io/ and switch into the full version to see the types of applicaitons it can create.
+Spring Boot Initializr is a fast way to generate a skeleton application and all the necessary dependencies for a Spring Boot application.   Visit https://start.spring.io/ and switch into the full version to see the types of applications it can create.
 
 ## Setup
 Start by cleaning up after the last person and making a directory in your Google Compute Engine Console and changing into it.
@@ -21,7 +21,7 @@ unzip demo.zip
 ```
 
 ## Look around at the code
-The project code that Spring Boot Initializr just created for you.  It expanded out to the following directory structure.  Notice the starter template includes java code, static web templates, and even starter test harnesses for you.
+The project code that Spring Boot Initializr just created for you.  It expanded out to the following directory structure.  Notice the starter template includes Java code, static web templates, and even starter test harnesses for you.
 ![Tree View of the Application](https://github.com/JohnFunk-Pivotal/CloudBrews-SpringBoot/blob/master/TreeViewOfApplication.png "Tree View of the Application")
 
 
@@ -47,10 +47,10 @@ Finally we'll push this application to Pivotal Cloud Foundry, but first we have 
 cf login -a api.run.pivotal.io -u demo1@johnfunk.com -o Channel -s Denver-CloudBrews
 cf push bootapp -p target/demo-0.0.1-SNAPSHOT.jar --random-route
 ```
-If you are asked for a password please ask one of the helpers at the station to proide it.
+If you are asked for a password please ask one of the helpers at the station to provide it.
 
 ## Login to Cloud Foundry
-Open cloud foundry in a browser by visiting:  http://run.pivotal.io  
+Open Cloud Foundry in a browser by visiting:  http://run.pivotal.io  
    *username: demo1@johnfunk.com  
    *password:  ask one of the helpers  
 
@@ -58,8 +58,8 @@ Open cloud foundry in a browser by visiting:  http://run.pivotal.io
 First click on the 'Denver-CloudBrews' space as shown below:
 ![CloudFoundrySpace](https://github.com/JohnFunk-Pivotal/CloudBrews-SpringBoot/blob/master/CloudFoundrySpace.png "Space view on PCF")  
 
-Next click on the link under the ROUTE lable as shown below:
+Next click on the link under the ROUTE label as shown below:
 ![CloudFoundryApps](https://github.com/JohnFunk-Pivotal/CloudBrews-SpringBoot/blob/master/CloudFoundryApps.png "Apps view on PCF")
 
 ## Congratulations
-Congratulations you just built a spring boot application on Google Compute Engine and pushed it to Pivotal Cloud Foundry.  Talk to the helper at the station to see what's next!
+Congratulations you just built a Spring Boot application on Google Compute Engine and pushed it to Pivotal Cloud Foundry.  Talk to the helper at the station to see what's next!
