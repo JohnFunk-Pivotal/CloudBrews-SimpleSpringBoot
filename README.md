@@ -26,7 +26,7 @@ The project code that Spring Boot Initializr just created for you.  It expanded 
 
 
 ## Add an examplecontroller class
-Using vim, emax or nano, which are provided in the GCE console, type in the code in ExampleController.java file above into the  src/main/java/com/example directory.   Or you can avoid typing the code by using the following command to copy it into your environment.
+Execute the command below to download the ExampleController.java file.  If you want to look at the source code look at the ExampleController.java of the root directory of this repo.
 ```
 curl https://raw.githubusercontent.com/JohnFunk-Pivotal/CloudBrews-SpringBoot/master/ExampleController.java -o src/main/java/com/example/ExampleController.java
 ```  
