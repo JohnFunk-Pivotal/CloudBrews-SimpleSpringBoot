@@ -36,11 +36,15 @@ curl https://raw.githubusercontent.com/JohnFunk-Pivotal/CloudBrews-SpringBoot/ma
 mvn clean install
 java -jar target/demo*.jar
 ```
-Add screenshot
 ## Open the application in a browser window
-http://localhost:8080
+To open a browser from the Google Compute Engine environment click in the control in the upper left of the console window as shown in the following diagrams:
 
-add ctrl-c
+![CloudFoundrySpace](https://github.com/JohnFunk-Pivotal/CloudBrews-SpringBoot/blob/master/OpenBrowser1.png "Open a browser")  
+![CloudFoundrySpace](https://github.com/JohnFunk-Pivotal/CloudBrews-SpringBoot/blob/master/OpenBrowser2.png "Open a browser") 
+
+## Stop the project
+To stop the project hit CTRL-C in the Google Compute Engine console window.
+
 
 ##Push the application to Pivotal Cloud Foundry
 Finally we'll push this application to Pivotal Cloud Foundry, but first we have to login.
