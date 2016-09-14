@@ -26,7 +26,7 @@ The project code that Spring Boot Initializr just created for you.  It expanded 
 
 
 ## Add an examplecontroller class
-Using vim, emax or nano, which are provided in the GCE console, type in the code in ExampleController.java file above into the  src/main/java/com/example directory.   Or you can avoid typing the code by using the following command to copy it into your environment.
+Execute the command below to download the ExampleController.java file.  If you want to look at the source code look at the ExampleController.java of the root directory of this repo.
 ```
 curl https://raw.githubusercontent.com/JohnFunk-Pivotal/CloudBrews-SpringBoot/master/ExampleController.java -o src/main/java/com/example/ExampleController.java
 ```  
@@ -36,9 +36,14 @@ curl https://raw.githubusercontent.com/JohnFunk-Pivotal/CloudBrews-SpringBoot/ma
 mvn clean install
 java -jar target/demo*.jar
 ```
-
 ## Open the application in a browser window
-http://localhost:8080
+To open a browser from the Google Compute Engine environment click in the control in the upper left of the console window as shown in the following diagrams:
+
+![CloudFoundrySpace](https://github.com/JohnFunk-Pivotal/CloudBrews-SpringBoot/blob/master/OpenBrowser1.png "Open a browser")  
+![CloudFoundrySpace](https://github.com/JohnFunk-Pivotal/CloudBrews-SpringBoot/blob/master/OpenBrowser2.png "Open a browser") 
+
+## Stop the project
+Once you see the "hello world" output from the app, stop the project hit CTRL-C in the Google Compute Engine console window.
 
 
 ##Push the application to Pivotal Cloud Foundry
@@ -58,7 +63,7 @@ Open Cloud Foundry in a browser by visiting:  http://run.pivotal.io
 First click on the 'Denver-CloudBrews' space as shown below:
 ![CloudFoundrySpace](https://github.com/JohnFunk-Pivotal/CloudBrews-SpringBoot/blob/master/CloudFoundrySpace.png "Space view on PCF")  
 
-Next click on the link under the ROUTE label as shown below:
+Next locate the applicaiton called "bootapp" and click on the link under the ROUTE label as shown below:
 ![CloudFoundryApps](https://github.com/JohnFunk-Pivotal/CloudBrews-SpringBoot/blob/master/CloudFoundryApps.png "Apps view on PCF")
 
 ## Congratulations
