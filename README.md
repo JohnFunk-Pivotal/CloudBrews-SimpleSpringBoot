@@ -43,7 +43,7 @@ To open a browser from the Google Compute Engine environment click in the contro
 ![CloudFoundrySpace](https://github.com/JohnFunk-Pivotal/CloudBrews-SpringBoot/blob/master/OpenBrowser2.png "Open a browser") 
 
 ## Stop the project
-To stop the project hit CTRL-C in the Google Compute Engine console window.
+Once you see the "hello world" output from the app, stop the project hit CTRL-C in the Google Compute Engine console window.
 
 
 ##Push the application to Pivotal Cloud Foundry
